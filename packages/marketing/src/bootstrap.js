@@ -6,7 +6,7 @@ import App from './App';
 const mount = (el) => {
     const history = createMemoryHistory();
     ReactDOM.render(
-        <App hitory={history} />,
+        <App history={history} />,
         el)
 }
 // if we are in development and in isolation, call mount immediately
